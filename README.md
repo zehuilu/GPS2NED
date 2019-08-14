@@ -1,5 +1,6 @@
 # Coordinates_Transform_GPS
 A function transforms the GPS coordinates to the local North-East-Down (NED) frame.
+Reference: https://onlinelibrary.wiley.com/doi/pdf/10.1002/9780470099728.app3
 
 The module is transformation_GPS.py.
 
