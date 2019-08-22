@@ -56,7 +56,7 @@ def GPS2ECEF(*argv):
     
     e2 = 1 - (1 - 1 / rf) ** 2           # squared eccentricity
     n = a / sqrt(1 - e2 * sin_lat ** 2)  # prime vertical radius
-    r = (n + altitude) * cos_lat         # perpendicular distance from z axis
+    r = (n + altitude) * cos_lat         # perpendicular distance in z axis
     x = r * cos_lon
     y = r * sin_lon
     z = (n * (1 - e2) + altitude) * sin_lat
